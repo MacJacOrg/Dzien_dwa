@@ -10,7 +10,7 @@ public class Main3 {
             String lastName = skanuje.nextLine();
             System.out.println("Ile masz lat?");
             int age = skanuje.nextInt();
-            if (age>18 && age<29) {
+            if (age>=18 && age<=29) {
                 System.out.println(name + lastName + " Możesz wejść");
             } else if (age >= 30){
                 System.out.println(name + lastName + "Jesteś za stary ;)");
